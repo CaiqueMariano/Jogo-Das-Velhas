@@ -3,10 +3,10 @@ public class Inserir extends Variaveis{
 	
 	public void Player1 (int pL, int pC) {
 		
-		t[pL][pC] = "X";
+		t[pL][pC] = "O";
 	}
 	
 	public void Player2 (int pL, int pC) {
-		t[pL][pC] = "O";
+		t[pL][pC] = "X";
 	}
 }

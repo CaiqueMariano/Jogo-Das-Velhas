@@ -349,15 +349,7 @@ public class Tela extends JFrame{
 
     				repaint();
     				frase.setText("Parabéns Ray of Light!");
-    				bt1.setEnabled(false);
-    				bt2.setEnabled(false);
-    				bt3.setEnabled(false);
-    				bt4.setEnabled(false);
-    				bt5.setEnabled(false);
-    				bt6.setEnabled(false);
-    				bt7.setEnabled(false);
-    				bt8.setEnabled(false);
-    				bt9.setEnabled(false);
+    				tirarBotoes();
     			}else {
     				bt3.setIcon(x);
         			bt3.setDisabledIcon(x);

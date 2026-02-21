@@ -199,15 +199,7 @@ public class Tela extends JFrame{
 
     			    
     				frase.setText("Parabéns Homogenic!");
-    				bt1.setEnabled(false);
-    				bt2.setEnabled(false);
-    				bt3.setEnabled(false);
-    				bt4.setEnabled(false);
-    				bt5.setEnabled(false);
-    				bt6.setEnabled(false);
-    				bt7.setEnabled(false);
-    				bt8.setEnabled(false);
-    				bt9.setEnabled(false);
+    				tirarBotoes();
     			}else {
     				
 	    			bt1.setIcon(bola);
@@ -234,15 +226,7 @@ public class Tela extends JFrame{
 
     				repaint();
     				frase.setText("Parabéns Ray of Light!");
-    				bt1.setEnabled(false);
-    				bt2.setEnabled(false);
-    				bt3.setEnabled(false);
-    				bt4.setEnabled(false);
-    				bt5.setEnabled(false);
-    				bt6.setEnabled(false);
-    				bt7.setEnabled(false);
-    				bt8.setEnabled(false);
-    				bt9.setEnabled(false);
+    				tirarBotoes();
     			}else {
     				bt1.setIcon(x);
         			bt1.setDisabledIcon(x);
@@ -278,15 +262,7 @@ public class Tela extends JFrame{
 
     				repaint();
     				frase.setText("Parabéns Homogenic!");
-    				bt1.setEnabled(false);
-    				bt2.setEnabled(false);
-    				bt3.setEnabled(false);
-    				bt4.setEnabled(false);
-    				bt5.setEnabled(false);
-    				bt6.setEnabled(false);
-    				bt7.setEnabled(false);
-    				bt8.setEnabled(false);
-    				bt9.setEnabled(false);
+    				tirarBotoes();
     			}else {
     				
 	    			bt2.setIcon(bola);
@@ -311,15 +287,7 @@ public class Tela extends JFrame{
 
     				repaint();
     				frase.setText("Parabéns Ray of Light!");
-    				bt1.setEnabled(false);
-    				bt2.setEnabled(false);
-    				bt3.setEnabled(false);
-    				bt4.setEnabled(false);
-    				bt5.setEnabled(false);
-    				bt6.setEnabled(false);
-    				bt7.setEnabled(false);
-    				bt8.setEnabled(false);
-    				bt9.setEnabled(false);
+    				tirarBotoes();
     			}else {
     				bt2.setIcon(x);
         			bt2.setDisabledIcon(x);
@@ -355,15 +323,7 @@ public class Tela extends JFrame{
 
     				repaint();
     				frase.setText("Parabéns Homogenic!");
-    				bt1.setEnabled(false);
-    				bt2.setEnabled(false);
-    				bt3.setEnabled(false);
-    				bt4.setEnabled(false);
-    				bt5.setEnabled(false);
-    				bt6.setEnabled(false);
-    				bt7.setEnabled(false);
-    				bt8.setEnabled(false);
-    				bt9.setEnabled(false);
+    				tirarBotoes();
     			}else {
     				
 	    			bt3.setIcon(bola);
@@ -432,15 +392,7 @@ public class Tela extends JFrame{
 
     				repaint();
     				frase.setText("Parabéns Homogenic!");
-    				bt1.setEnabled(false);
-    				bt2.setEnabled(false);
-    				bt3.setEnabled(false);
-    				bt4.setEnabled(false);
-    				bt5.setEnabled(false);
-    				bt6.setEnabled(false);
-    				bt7.setEnabled(false);
-    				bt8.setEnabled(false);
-    				bt9.setEnabled(false);
+    				tirarBotoes();
     			}else {
     				
 	    			bt4.setIcon(bola);
@@ -465,15 +417,7 @@ public class Tela extends JFrame{
 
     				repaint();
     				frase.setText("Parabéns Ray of Light!");
-    				bt1.setEnabled(false);
-    				bt2.setEnabled(false);
-    				bt3.setEnabled(false);
-    				bt4.setEnabled(false);
-    				bt5.setEnabled(false);
-    				bt6.setEnabled(false);
-    				bt7.setEnabled(false);
-    				bt8.setEnabled(false);
-    				bt9.setEnabled(false);
+    				tirarBotoes();
     			}else {
     				bt4.setIcon(x);
         			bt4.setDisabledIcon(x);
@@ -508,15 +452,7 @@ public class Tela extends JFrame{
 
     				repaint();
     				frase.setText("Parabéns Homogenic!");
-    				bt1.setEnabled(false);
-    				bt2.setEnabled(false);
-    				bt3.setEnabled(false);
-    				bt4.setEnabled(false);
-    				bt5.setEnabled(false);
-    				bt6.setEnabled(false);
-    				bt7.setEnabled(false);
-    				bt8.setEnabled(false);
-    				bt9.setEnabled(false);
+    				tirarBotoes();
     			}else {
     				
 	    			bt5.setIcon(bola);
@@ -541,15 +477,7 @@ public class Tela extends JFrame{
 
     				repaint();
     				frase.setText("Parabéns Ray of Light!");
-    				bt1.setEnabled(false);
-    				bt2.setEnabled(false);
-    				bt3.setEnabled(false);
-    				bt4.setEnabled(false);
-    				bt5.setEnabled(false);
-    				bt6.setEnabled(false);
-    				bt7.setEnabled(false);
-    				bt8.setEnabled(false);
-    				bt9.setEnabled(false);
+    				tirarBotoes();
     			}else {
     				bt5.setIcon(x);
         			bt5.setDisabledIcon(x);
@@ -585,15 +513,7 @@ public class Tela extends JFrame{
 
     				repaint();
     				frase.setText("Parabéns Homogenic!");
-    				bt1.setEnabled(false);
-    				bt2.setEnabled(false);
-    				bt3.setEnabled(false);
-    				bt4.setEnabled(false);
-    				bt5.setEnabled(false);
-    				bt6.setEnabled(false);
-    				bt7.setEnabled(false);
-    				bt8.setEnabled(false);
-    				bt9.setEnabled(false);
+    				tirarBotoes();
     			}else {
     				
 	    			bt6.setIcon(bola);
@@ -618,15 +538,7 @@ public class Tela extends JFrame{
 
     				repaint();
     				frase.setText("Parabéns Ray of Light!");
-    				bt1.setEnabled(false);
-    				bt2.setEnabled(false);
-    				bt3.setEnabled(false);
-    				bt4.setEnabled(false);
-    				bt5.setEnabled(false);
-    				bt6.setEnabled(false);
-    				bt7.setEnabled(false);
-    				bt8.setEnabled(false);
-    				bt9.setEnabled(false);
+    				tirarBotoes();
     			}else {
     				bt6.setIcon(x);
         			bt6.setDisabledIcon(x);
@@ -663,15 +575,7 @@ public class Tela extends JFrame{
 
     				repaint();
     				frase.setText("Parabéns Homogenic!");
-    				bt1.setEnabled(false);
-    				bt2.setEnabled(false);
-    				bt3.setEnabled(false);
-    				bt4.setEnabled(false);
-    				bt5.setEnabled(false);
-    				bt6.setEnabled(false);
-    				bt7.setEnabled(false);
-    				bt8.setEnabled(false);
-    				bt9.setEnabled(false);
+    				tirarBotoes();
     			}else {
     				
 	    			bt7.setIcon(bola);
@@ -696,15 +600,7 @@ public class Tela extends JFrame{
 
     				repaint();
     				frase.setText("Parabéns Ray of Light!");
-    				bt1.setEnabled(false);
-    				bt2.setEnabled(false);
-    				bt3.setEnabled(false);
-    				bt4.setEnabled(false);
-    				bt5.setEnabled(false);
-    				bt6.setEnabled(false);
-    				bt7.setEnabled(false);
-    				bt8.setEnabled(false);
-    				bt9.setEnabled(false);
+    				tirarBotoes();
     			}else {
     				bt7.setIcon(x);
         			bt7.setDisabledIcon(x);
@@ -741,15 +637,7 @@ public class Tela extends JFrame{
 
     				repaint();
     				frase.setText("Parabéns Homogenic!");
-    				bt1.setEnabled(false);
-    				bt2.setEnabled(false);
-    				bt3.setEnabled(false);
-    				bt4.setEnabled(false);
-    				bt5.setEnabled(false);
-    				bt6.setEnabled(false);
-    				bt7.setEnabled(false);
-    				bt8.setEnabled(false);
-    				bt9.setEnabled(false);
+    				tirarBotoes();
     			}else {
     				
 	    			bt8.setIcon(bola);
@@ -774,15 +662,7 @@ public class Tela extends JFrame{
 
     				repaint();
     				frase.setText("Parabéns Ray of Light!");
-    				bt1.setEnabled(false);
-    				bt2.setEnabled(false);
-    				bt3.setEnabled(false);
-    				bt4.setEnabled(false);
-    				bt5.setEnabled(false);
-    				bt6.setEnabled(false);
-    				bt7.setEnabled(false);
-    				bt8.setEnabled(false);
-    				bt9.setEnabled(false);
+    				tirarBotoes();
     			}else {
     				bt8.setIcon(x);
         			bt8.setDisabledIcon(x);
@@ -818,15 +698,7 @@ public class Tela extends JFrame{
 
     				repaint();
     				frase.setText("Parabéns Homogenic!");
-    				bt1.setEnabled(false);
-    				bt2.setEnabled(false);
-    				bt3.setEnabled(false);
-    				bt4.setEnabled(false);
-    				bt5.setEnabled(false);
-    				bt6.setEnabled(false);
-    				bt7.setEnabled(false);
-    				bt8.setEnabled(false);
-    				bt9.setEnabled(false);
+    				tirarBotoes();
     			}else {
     				
 	    			bt9.setIcon(bola);
@@ -851,15 +723,8 @@ public class Tela extends JFrame{
 
     				repaint();
     				frase.setText("Parabéns Ray of Light!");
-    				bt1.setEnabled(false);
-    				bt2.setEnabled(false);
-    				bt3.setEnabled(false);
-    				bt4.setEnabled(false);
-    				bt5.setEnabled(false);
-    				bt6.setEnabled(false);
-    				bt7.setEnabled(false);
-    				bt8.setEnabled(false);
-    				bt9.setEnabled(false);
+    				tirarBotoes();
+    				
     			}else {
     				bt9.setIcon(x);
         			bt9.setDisabledIcon(x);
@@ -874,5 +739,17 @@ public class Tela extends JFrame{
       );
     
 	}
+		
+		public void tirarBotoes() {
+			bt1.setEnabled(false);
+			bt2.setEnabled(false);
+			bt3.setEnabled(false);
+			bt4.setEnabled(false);
+			bt5.setEnabled(false);
+			bt6.setEnabled(false);
+			bt7.setEnabled(false);
+			bt8.setEnabled(false);
+			bt9.setEnabled(false);
+		}
 
 }

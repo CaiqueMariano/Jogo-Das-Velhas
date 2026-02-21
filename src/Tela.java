@@ -141,13 +141,17 @@ public class Tela extends JFrame{
     	ImageIcon ray = new ImageIcon(getClass().getResource("/assets/ray.png"));
     	ImageIcon bola = new ImageIcon(getClass().getResource("/assets/excuseme.jpg"));
     	ImageIcon x = new ImageIcon(getClass().getResource("/assets/rayoflight.jpg"));
+    	ImageIcon velha = new ImageIcon(getClass().getResource("/assets/velha.jpeg"));
     	
-    	
+    	JLabel humilhacao = new JLabel(velha);
     	JLabel tabuleiro = new JLabel(jogo);
     	JLabel imagem = new JLabel(homogenic);
     	JLabel mad = new JLabel(ray);
     	
-    	
+    	humilhacao.setBounds(180,400,356,103);
+    	humilhacao.setVisible(false);
+		add(humilhacao);
+		
     	tabuleiro.setBounds(200, 100, 300, 300);
     	add(tabuleiro);
     	
@@ -166,6 +170,8 @@ public class Tela extends JFrame{
     	
     	//Inserções
     	
+    	//Para cada inserção elçe verifica se de quem é a rodada, e verifica se deu velha ou se o jogador ganhou, só dai ele insere. 
+    	
     	bt1.addActionListener(new ActionListener() {
     		public void actionPerformed(ActionEvent event) {
     			
@@ -174,7 +180,13 @@ public class Tela extends JFrame{
     			
     			inserir.Player1(0,0);
     			
-    			if(validar.ValidarO() == true) {
+    			
+    			if (validar.ValidarO() == 2) {
+    				frase.setBounds(260,500,400,45);
+    				frase.setText("IHH LÁ VEM A KATE BUSH");
+    				humilhacao.setVisible(true);
+    			}
+    			else if(validar.ValidarO() == 1) {
     				bt1.setVisible(false); 
 
     				Video video = new Video("assets/bjork.mp4",80,80);
@@ -207,7 +219,13 @@ public class Tela extends JFrame{
     		}else {
     			inserir.Player2(0, 0);
     			
-    			if(validar.ValidarX() == true) {
+    			
+    			if (validar.ValidarX() == 2) {
+    				frase.setBounds(260,500,400,45);
+    				frase.setText("IHH LÁ VEM A KATE BUSH");
+    				humilhacao.setVisible(true);
+    			}
+    			else if(validar.ValidarX() == 1) {
     				Video video = new Video("assets/maddona.mp4",80,80);
 
     				video.setBounds(210, 110, 80, 80);
@@ -228,7 +246,7 @@ public class Tela extends JFrame{
     			}else {
     				bt1.setIcon(x);
         			bt1.setDisabledIcon(x);
-        			frase.setText("SUA VEZ RAY OF LIGHT!");
+        			frase.setText("SUA VEZ HOMOGENIC!");
     			}
     			
     		}
@@ -245,7 +263,13 @@ public class Tela extends JFrame{
     			
     		if(rodada) {
     			inserir.Player1(0,1);
-    			if(validar.ValidarO() == true) {
+    			
+    			if (validar.ValidarO() == 2) {
+    				frase.setBounds(260,500,400,45);
+    				frase.setText("IHH LÁ VEM A KATE BUSH");
+    				humilhacao.setVisible(true);
+    			}
+    			else if(validar.ValidarO() == 1) {
     				Video video = new Video("assets/bjork.mp4",80,80);
 
     				video.setBounds(310, 110, 80, 80);
@@ -272,7 +296,13 @@ public class Tela extends JFrame{
     			
     		}else {
     			inserir.Player2(0, 1);
-    			if(validar.ValidarX() == true) {
+    			
+    			if (validar.ValidarX() == 2) {
+    				frase.setBounds(260,500,400,45);
+    				frase.setText("IHH LÁ VEM A KATE BUSH");
+    				humilhacao.setVisible(true);
+    			}
+    			else if(validar.ValidarX() == 1) {
     				Video video = new Video("assets/maddona.mp4",80,80);
 
     				video.setBounds(310, 110, 80, 80);
@@ -309,7 +339,14 @@ public class Tela extends JFrame{
     			
     		if(rodada) {
     			inserir.Player1(0,2);
-    			if(validar.ValidarO() == true) {
+    			
+    			if (validar.ValidarO() == 2) {
+    				frase.setBounds(260,500,400,45);
+    				frase.setText("IHH LÁ VEM A KATE BUSH");
+    				humilhacao.setVisible(true);
+    				
+    			}
+    			else if(validar.ValidarO() == 1) {
     				Video video = new Video("assets/bjork.mp4",80,80);
 
     				video.setBounds(410, 110, 80, 80);
@@ -336,7 +373,14 @@ public class Tela extends JFrame{
     			
     		}else {
     			inserir.Player2(0, 2);
-    			if(validar.ValidarX() == true) {
+    			
+    			
+    			if (validar.ValidarX() == 2) {
+    				frase.setBounds(260,500,400,45);
+    				frase.setText("IHH LÁ VEM A KATE BUSH");
+    				humilhacao.setVisible(true);
+    			}
+    			else if(validar.ValidarX() == 1) {
     				Video video = new Video("assets/maddona.mp4",80,80);
 
     				video.setBounds(410, 110, 80, 80);
@@ -373,7 +417,13 @@ public class Tela extends JFrame{
     			
     		if(rodada) {
     			inserir.Player1(1,0);
-    			if(validar.ValidarO() == true) {
+    			
+    			if (validar.ValidarO() == 2) {
+    				frase.setBounds(260,500,400,45);
+    				frase.setText("IHH LÁ VEM A KATE BUSH");
+    				humilhacao.setVisible(true);
+    			}
+    			else if(validar.ValidarO() == 1) {
     				Video video = new Video("assets/bjork.mp4",80,80);
 
     				video.setBounds(210, 210, 80, 80);
@@ -400,7 +450,13 @@ public class Tela extends JFrame{
     			
     		}else {
     			inserir.Player2(1, 0);
-    			if(validar.ValidarX() == true) {
+    			
+    			if (validar.ValidarX() == 2) {
+    				frase.setBounds(260,500,400,45);
+    				frase.setText("IHH LÁ VEM A KATE BUSH");
+    				humilhacao.setVisible(true);
+    			}
+    			else if(validar.ValidarX() == 1) {
     				Video video = new Video("assets/maddona.mp4",80,80);
 
     				video.setBounds(210, 210, 80, 80);
@@ -437,7 +493,13 @@ public class Tela extends JFrame{
     			
     		if(rodada) {
     			inserir.Player1(1,1);
-    			if(validar.ValidarO() == true) {
+    			
+    			if (validar.ValidarO() == 2) {
+    				frase.setBounds(260,500,400,45);
+    				frase.setText("IHH LÁ VEM A KATE BUSH");
+    				humilhacao.setVisible(true);
+    			}
+    			else if(validar.ValidarO() == 1) {
     				Video video = new Video("assets/bjork.mp4",80,80);
 
     				video.setBounds(310, 210, 80, 80);
@@ -464,7 +526,13 @@ public class Tela extends JFrame{
     			
     		}else {
     			inserir.Player2(1, 1);
-    			if(validar.ValidarX() == true) {
+    			
+    			if (validar.ValidarX() == 2) {
+    				frase.setBounds(260,500,400,45);
+    				frase.setText("IHH LÁ VEM A KATE BUSH");
+    				humilhacao.setVisible(true);
+    			}
+    			else if(validar.ValidarX() == 1) {
     				Video video = new Video("assets/maddona.mp4",80,80);
 
     				video.setBounds(410, 210, 80, 80);
@@ -502,7 +570,13 @@ public class Tela extends JFrame{
     			
     		if(rodada) {
     			inserir.Player1(1,2);
-    			if(validar.ValidarO() == true) {
+    			
+    			if (validar.ValidarO() == 2) {
+    				frase.setBounds(260,500,400,45);
+    				frase.setText("IHH LÁ VEM A KATE BUSH");
+    				humilhacao.setVisible(true);
+    			}
+    			else if(validar.ValidarO() == 1) {
     				Video video = new Video("assets/bjork.mp4",80,80);
 
     				video.setBounds(410, 210, 80, 80);
@@ -529,7 +603,13 @@ public class Tela extends JFrame{
     			
     		}else {
     			inserir.Player2(1, 2);
-    			if(validar.ValidarX() == true) {
+    			
+    			if (validar.ValidarX() == 2) {
+    				frase.setBounds(260,500,400,45);
+    				frase.setText("IHH LÁ VEM A KATE BUSH");
+    				humilhacao.setVisible(true);
+    			}
+    			else if(validar.ValidarX() == 1) {
     				Video video = new Video("assets/maddona.mp4",80,80);
 
     				video.setBounds(410, 210, 80, 80);
@@ -567,7 +647,14 @@ public class Tela extends JFrame{
     			
     		if(rodada) {
     			inserir.Player1(2,0);
-    			if(validar.ValidarO() == true) {
+    			
+    			if (validar.ValidarO() == 2) {
+    				frase.setBounds(260,500,400,45);
+    				frase.setText("IHH LÁ VEM A KATE BUSH");
+    				humilhacao.setVisible(true);
+    			}
+    			else if(validar.ValidarO() == 1) {
+    				
     				Video video = new Video("assets/bjork.mp4",80,80);
 
     				video.setBounds(210, 310, 80, 80);
@@ -594,7 +681,13 @@ public class Tela extends JFrame{
     			
     		}else {
     			inserir.Player2(2, 0);
-    			if(validar.ValidarX() == true) {
+    			
+    			if (validar.ValidarX() == 2) {
+    				frase.setBounds(260,500,400,45);
+    				frase.setText("IHH LÁ VEM A KATE BUSH");
+    				humilhacao.setVisible(true);
+    			}
+    			else if(validar.ValidarX() == 1) {
     				Video video = new Video("assets/maddona.mp4",80,80);
 
     				video.setBounds(210, 310, 80, 80);
@@ -632,7 +725,14 @@ public class Tela extends JFrame{
     			
     		if(rodada) {
     			inserir.Player1(2,1);
-    			if(validar.ValidarO() == true) {
+    			
+    		
+    			if (validar.ValidarO() == 2) {
+    				frase.setBounds(260,500,400,45);
+    				frase.setText("IHH LÁ VEM A KATE BUSH");
+    				humilhacao.setVisible(true);
+    			}
+    			else if(validar.ValidarO() == 1) {
     				Video video = new Video("assets/bjork.mp4",80,80);
 
     				video.setBounds(310, 310, 80, 80);
@@ -659,7 +759,13 @@ public class Tela extends JFrame{
     			
     		}else {
     			inserir.Player2(2, 1);
-    			if(validar.ValidarX() == true) {
+    			
+    			if (validar.ValidarX() == 2) {
+    				frase.setBounds(260,500,400,45);
+    				frase.setText("IHH LÁ VEM A KATE BUSH");
+    				humilhacao.setVisible(true);
+    			}
+    			else if(validar.ValidarX() == 1) {
     				Video video = new Video("assets/maddona.mp4",80,80);
 
     				video.setBounds(310, 310, 80, 80);
@@ -697,7 +803,13 @@ public class Tela extends JFrame{
     			
     		if(rodada) {
     			inserir.Player1(2,2);
-    			if(validar.ValidarO() == true) {
+    			
+    			if (validar.ValidarO() == 2) {
+    				frase.setBounds(260,500,400,45);
+    				frase.setText("IHH LÁ VEM A KATE BUSH");
+    				humilhacao.setVisible(true);
+    			}
+    			else if(validar.ValidarO() == 1) {
     				Video video = new Video("assets/bjork.mp4",80,80);
 
     				video.setBounds(410, 310, 80, 80);
@@ -724,7 +836,13 @@ public class Tela extends JFrame{
     			
     		}else {
     			inserir.Player2(2, 2);
-    			if(validar.ValidarX() == true) {
+    			
+    			if (validar.ValidarX() == 2) {
+    				frase.setBounds(260,500,400,45);
+    				frase.setText("IHH LÁ VEM A KATE BUSH");
+    				humilhacao.setVisible(true);
+    			}
+    			else if(validar.ValidarX() == 1) {
     				Video video = new Video("assets/maddona.mp4",80,80);
 
     				video.setBounds(410, 310, 80, 80);
